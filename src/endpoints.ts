@@ -22,6 +22,11 @@ export function putRate(_req: Request, data: RequestParam): Response {
   return new Response("putRate");
 }
 
+export function deleteRate(_req: Request, data: RequestParam): Response {
+  console.log(data);
+  return new Response("deleteRate");
+}
+
 export function getConversion(_req: Request, data: RequestParam): Response {
   console.log(data);
   return new Response("getConversion");
