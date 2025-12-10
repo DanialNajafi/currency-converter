@@ -1,4 +1,4 @@
-import { parseArgs } from "jsr:@std/cli/parse-args";
+import { parseArgs } from "@std/cli/parse-args";
 import { isCurrency } from "./validation.ts";
 import { Converter } from "./conversion.ts";
 
