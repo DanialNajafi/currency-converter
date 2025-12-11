@@ -51,9 +51,3 @@ Run the tests:
 Report test coverage (exports an HTML report to the `codecov/` folder):
 
     $ deno test --coverage=codecov
-
-## Ideas for Exercises
-
-- Test-Driven Development: Compute transitive conversions. If an exchange rate from `chf` to `eur`, `eur` to `usd`, and from `usd` to `gbp` is given, a conversion from `chf` to `gbp` shall be possible, too.
-- End-to-End Tests: Run the server and test against the API using shell scripts and `curl`.
-- Mass Test: Generate a file with random numbers, process it using the server or the CLI, and store the results in another file. Write an `awk` script that performs the same conversions into another file, and `diff` those results.
