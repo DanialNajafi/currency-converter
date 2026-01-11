@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -u
 
-CLI="src/cli.ts"
+CLI="cli.ts"
 RATES="exchange-rates.json"
 
 PASS=0
