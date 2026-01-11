@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -u
 
-SERVER="server.ts"
+SERVER="src/server.ts"
 
 PASS=0
 FAIL=0
