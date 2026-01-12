@@ -1,0 +1,7 @@
+chmod +x cli-test.sh
+./cli-test.sh
+echo $?
+
+chmod +x server-test.sh
+./server-test.sh
+echo $?
